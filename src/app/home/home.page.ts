@@ -12,13 +12,13 @@ import { MessageService } from '../services/message.service';
 export class HomePage {
   pessoa = {
     foto: 'https://img.freepik.com/fotos-gratis/macaco-de-vista-frontal-usando-oculos-escuros_23-2150754441.jpg',
-    nome: 'Pombinha da Paz Silva',
+    nome: 'Mamaco da Paz Silva',
     objetivo: 'Programador HTML & CSS',
     contato: {
-      email: 'pombinha@hotmail.com',
+      email: 'mamaco@hotmail.com',
       telefone: '(11) 99333333',
-      github: 'github.com/pombinha',
-      linkedin: 'linkedim.com/pombinha'
+      github: 'github.com/mamaco',
+      linkedin: 'linkedim.com/mamaco'
     },
     softskills: [
       'Comunicação',
