@@ -11,9 +11,9 @@ import { MessageService } from '../services/message.service';
 })
 export class HomePage {
   pessoa = {
-    foto: 'https://img.freepik.com/fotos-gratis/macaco-de-vista-frontal-usando-oculos-escuros_23-2150754441.jpg',
-    nome: 'Mamaco da Paz Silva',
-    objetivo: 'Programador HTML & CSS',
+    foto: 'https://i.pinimg.com/474x/d0/df/ba/d0dfba3ff11ba1fde565d2d9652b215f.jpg',
+    nome: 'Mamaco Agiota da Silva',
+    objetivo: 'Programador HTML & CSS & Agiota',
     contato: {
       email: 'mamaco@hotmail.com',
       telefone: '(11) 99333333',
@@ -23,7 +23,8 @@ export class HomePage {
     softskills: [
       'Comunicação',
       'Proatividade',
-      'Trabalho em Grupo'
+      'Trabalho em Grupo',
+      'Cobrar quem me deve'
     ],
     formacao: [
       {
@@ -48,5 +49,6 @@ export class HomePage {
       }
     ]
   }
+  
   constructor(){ }
 }
